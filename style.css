@@ -1,0 +1,25 @@
+/* ==============================================
+            Carosol Custom style 
+================================================*/
+.custom-carosol::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.6;
+}
+/* ==============================================
+            Caption Custom style 
+================================================*/
+.custom-caption{
+    bottom: 180px;
+}
+
+.custom-caption a{
+    width: 150px;
+    margin: auto;
+}
