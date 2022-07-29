@@ -23,3 +23,40 @@
     width: 150px;
     margin: auto;
 }
+
+/* ==============================================
+           Mediaquery Caption Custom style 
+================================================*/
+@media only screen and (max-width: 1190px) {
+    .custom-caption{
+        bottom: 150px;
+    }
+}
+@media only screen and (max-width: 995px) {
+    .custom-caption{
+        bottom: 50px;
+    }
+    .custom-caption h2{
+        font-size: 25px !important;
+    }
+    .custom-caption p{
+        font-size: 13px !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .custom-caption{
+        bottom: 50px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .custom-caption h2{
+        font-size: 18px !important;
+        margin-bottom: -0px !important;
+    }
+    .custom-caption p{
+        margin-bottom: 0px !important;
+    }
+    .custom-caption{
+        bottom: 0px;
+    }
+}
